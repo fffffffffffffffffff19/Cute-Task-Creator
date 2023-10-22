@@ -123,7 +123,7 @@ def deleteOneChoice(): # The "D" choice, for delete one entry on database #
 def mainFunct(): # the name says it all... #
     ShowAllItems().mainFuncText()
 
-    print(" Schiavo's Task Creator ~ v1.0.0")
+    print(" Schiavo's Task Creator ~ v1.1.1")
     choice = input('Select an option: [A]dd [D]elete [C]lear [E]xit: ')
 
     if choice.lower() not in ['a', 'd', 'c', 'e']:
